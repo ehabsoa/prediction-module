@@ -1,6 +1,6 @@
-##### Prediction module.
+## Bunching Delays Prediction module.
 
-###### To run without the docker container:
+#### To run without the docker container:
 
 1) Download the file _datapoints_all.pkl_ (available in Dittlab, distributed as necessary), and put it into the _sampledata_ folder.
 
@@ -30,7 +30,7 @@ You should see the following message:
 Delay Prediction Server is running!
 ```
 
-###### Usage documentation
+#### Usage documentation
 
 When the server starts, it automatically checks the database and finds all unique values of
 _linedir_ - an identification of a particular PT route (line number and direction combined).
