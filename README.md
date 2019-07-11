@@ -5,7 +5,7 @@
 1) Download the file _datapoints_all.pkl_ (available in Dittlab, distributed as necessary), and put it into the _sampledata_ folder.
 
 2) Make sure MySQL server is running on your host. If necessary, change the appropriate lines 
-in the configuration in the _putSampleDataIntoMySQL.py_ file:
+in the configuration in the _putSampleDataIntoMySQL.py_ file and _dbio.py_ file:
 
 ```
 db = mysql.connect(
